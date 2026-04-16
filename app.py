@@ -1,9 +1,6 @@
 """
-Streamlit dashboard for Hannah Kamen's labor-economics piece:
+Streamlit dashboard for:
 "AI's Energy Constraint Is Showing Up in Tech Hiring".
-
-This app loads only pre-aggregated summary CSVs from data/ — it never touches
-the raw workforce-flows source files, so the dashboard is safe to publish.
 """
 from pathlib import Path
 
@@ -333,15 +330,8 @@ st.divider()
 st.markdown(
     """
 <div style='color:#6b7280; font-size:0.85rem; line-height:1.5'>
-<b>Data &amp; methodology.</b> Source data is a proprietary role-level
-workforce-flows dataset shared with the author for a hiring assignment in
-February 2026. To keep the provider's licensed raw data off of public
-infrastructure, this repo ships only small <em>pre-aggregated</em> summary
-files — the exact numbers driving the four charts above — under
-<code>data/</code>. Re-running <code>preprocess.py</code> against the original
-raw CSVs reproduces these aggregates. See README for details.<br><br>
-<b>About.</b> Built by Hannah Kamen as part of a portfolio of applied labor
-economics work. Original piece: <em>"AI's Energy Constraint Is Showing Up
+<b>Data &amp; methodology.</b> Built by Hannah Kamen as part of a portfolio of applied labor
+economics / Data Science work. Original piece: <em>"AI's Energy Constraint Is Showing Up
 in Tech Hiring."</em>
 </div>
 """,
