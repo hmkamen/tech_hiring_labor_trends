@@ -103,5 +103,5 @@ See `preprocess.py` for the exact aggregation code.
 
 ## License
 
-Code is released under the MIT License. The underlying proprietary data is
+Code is released under License. The underlying proprietary data is
 **not** licensed for redistribution and is not included in this repository.
