@@ -29,12 +29,12 @@ narrative:
 The underlying source is a proprietary role-level workforce-flows dataset that
 was shared with me in February 2026 for an analytical writing piece. To avoid
 republishing a data provider's licensed raw data on public infrastructure,
-**this repo ships only small pre-aggregated summary files** — the exact
+**this repo only contains small pre-aggregated summary files** — the exact
 chart-level numbers under `data/`. No raw, row-level, or company-level data is
 committed.
 
 If you have the original raw CSVs locally, `preprocess.py` regenerates those
-aggregates deterministically from them.
+aggregates from them.
 
 ## Project structure
 
