@@ -1,0 +1,24 @@
+# Raw workforce-flows data should NEVER be committed — keep it off GitHub entirely.
+wf_dynam_role_breakdown*.csv
+wf_dynam_role_breakdown/
+company_mapping.csv
+raw_data/
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
+*.swp
